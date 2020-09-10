@@ -35,4 +35,20 @@ public class Exam07
     	Exam07 obj = new Exam07();
     	System.out.println(obj.solution("helooo"));
     }
+    
+    // 다른 풀이01
+    /*
+    String getMiddle(String word)
+    {
+        return word.substring((word.length()-1) / 2, word.length()/2 + 1);    
+    }
+    */
+    
+    // 다른 풀이02
+    /*
+    String getMiddle(String word)
+    {
+    	return word != null ? word.substring((word.length()-1)/2,(word.length()+2)/2) : "";
+    }
+    */
 }
