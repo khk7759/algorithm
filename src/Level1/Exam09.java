@@ -21,9 +21,7 @@ public class Exam09
 		
 		System.out.print("수를 입력하세요 >> ");
 		int n = sc.nextInt();
-		int m = sc.nextInt();
-		
-		
+		int m = sc.nextInt();	
 		
 		for(int i=1; i<=m ; i++)
 		{
