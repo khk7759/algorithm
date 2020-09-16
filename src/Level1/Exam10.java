@@ -24,10 +24,19 @@ package Level1;
 
 public class Exam10
 {
+	// 다른 사람 풀이 -- 이걸로 통과..
     public String solution(int n) 
     {
         String answer = "";
         
+        int addNum = 0;
+        
+    	while(n != 0) { 
+    		
+    		addNum = n%3 == 0 ? 4 : n%3;
+    		answer = Integer.toString(addNum) + answer;
+    		n = addNum == 4 ? n/3 - 1 : n/3;
+    	}
         
         return answer; 
     }	
@@ -38,6 +47,23 @@ public class Exam10
 		
 		System.out.println(obj.solution(6));
 	}
+	
+	/*
+	public String solution(int n) {
+		
+		String[] num = {"4","1","2"};
+		String answer = "";
+
+		while(n > 0){
+			answer = num[n % 3] + answer;
+			n = (n - 1) / 3;
+		}
+		
+		return answer;
+	}
+	*/
+	
+	
 	/*
 	// 내 코드) 프로그래머스상 효율성 실패 코드...
     public String solution(int n) // n이 6
