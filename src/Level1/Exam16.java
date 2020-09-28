@@ -25,7 +25,7 @@ public class Exam16
         
         Scanner sc = new Scanner(System.in);
         
-
+        // 언제푸냐... 빨리 풀자.. 만족스럽지 못하내요....☆★
 
         return answer;
     }
