@@ -15,7 +15,7 @@
 
 package Level1;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Exam16
 {
@@ -23,16 +23,16 @@ public class Exam16
 	{
         boolean answer = true;
         
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         
-        // 언제푸냐... 빨리 풀자.. 만족스럽지 못하내요....
+        // 언제푸냐... 빨리 풀자.. 
 
         return answer;
     }
 	
 	public static void main(String[] args) {
 		
-		Exam16 obj = new Exam16();
+		//Exam16 obj = new Exam16();
 		
 		System.out.println();
 	}
