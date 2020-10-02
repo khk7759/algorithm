@@ -24,9 +24,6 @@ public class Exam16
         boolean answer = true;
         
         //Scanner sc = new Scanner(System.in);
-        
-        // 언제푸냐... 빨리 풀자.. 
-        // 초록색 칠하는 거시 목적이 되는건 아니된다...
 
         return answer;
     }
