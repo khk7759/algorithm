@@ -23,7 +23,7 @@ public class Exam16
 	{
         boolean answer = true;
         
-        //Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in); 
 
         return answer;
     }
