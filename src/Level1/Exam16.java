@@ -1,7 +1,6 @@
 /* 
-	2020.10.13
+	2020.10.14
 	written by hongkyoung Kim
-	language) java	
 	
 	Exam16) 문자열 내 p와 y의 개수
 
