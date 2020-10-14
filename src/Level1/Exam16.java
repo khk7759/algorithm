@@ -1,5 +1,5 @@
 /* 
-	2020.10.14
+	2020.10.15
 	written by hongkyoung Kim
 	
 	Exam16) 문자열 내 p와 y의 개수
